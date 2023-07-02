@@ -16,10 +16,14 @@ export default function Footer(){
     const [user, setIsAuthenticated] = useState(false);
     const [loginpop,setloginpop] = useState(false);
     const firebaseConfig = {
-        apiKey: "AIzaSyBOwu1HGOc2LTTjalwwhwEkM16EdziUyEE",
-        authDomain: "free-netflix-7e3cf.firebaseapp.com",
-        projectId: "free-netflix-7e3cf"
-    };
+      apiKey: "AIzaSyCZIGLq4h7LSGeAQDfDU0qTps2A3CyB1HQ",
+        authDomain: "free-netflix-68973.firebaseapp.com",
+        projectId: "free-netflix-68973",
+        storageBucket: "free-netflix-68973.appspot.com",
+        messagingSenderId: "850928033805",
+        appId: "1:850928033805:web:93f82b17aa4af31812f544",
+        measurementId: "G-XELFZ9RXFC"
+  };
     firebase.initializeApp(firebaseConfig);
     useEffect(() => {
         // Add an authentication state observer
